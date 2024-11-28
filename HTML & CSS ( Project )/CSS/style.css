@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-color: rgb(176 234 228);
+    
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    width: auto;
+    margin-top: 20px;
+    height: 95vh;
+}
+
+header img {
+    border-radius:50px;
+    width: auto;
+    height: 80vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    
+}
+
+
+
+
+footer {
+
+}
+footer button {
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(6, 160, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s;
+}
+
+footer button:hover{
+    /* background-color: rgb(5, 86, 91);
+    padding: 6px; */
+    opacity: 0.8;
+}
+footer button:active{
+    background-color: rgb(10, 4, 90);
+    padding: 7px;
+}
